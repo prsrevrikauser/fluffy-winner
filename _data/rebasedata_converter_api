@@ -1,0 +1,12 @@
+REQUEST STRING [using curl]
+
+$ curl -F files[]=@filename.db https://www.rebasedata.com/api/v1/convert?outputFormat=xlsx -o result.zip
+
+README
+    * Replace @filename.db with your file (insluding path)
+        #! Don't remove @ symbol
+
+    * Replace outputFormat=xlsx with your intended format
+
+    * Replace result.zip with your output filename and format
+
