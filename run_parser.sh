@@ -2,14 +2,15 @@
 
 if [ -z $1 ]; then
   echo "Please, pass in a shop name to parse."
-  echo "Available options: alser, fora, mechta, sulpak"
+  echo "Available options: alser, fora, mechta, sulpak, evrika"
   echo "Pass in 'all' to parse all available shops."
   
   exit 1
 else
   shop=$1
   now=$(date +%Y%m%d_%H%M%S)
-  db_base_name="./_data/competitors_data_for_${now}"
+  db_base_name="./_data/competitors_data_${now}"
+  db_comparison_base_name="./_data/c/comparison_data_${now}"
 
   case $shop in
   
@@ -40,11 +41,17 @@ else
 
   "all")
     db_name="${db_base_name}_all.db"
+    db_comparison_name="${db_comparison_base_name}_all.db"
+
+    # parse sites
+    ruby ./evrika/main.rb $db_name
     ruby ./alser/main.rb $db_name
     ruby ./fora/main.rb $db_name
     ruby ./mechta/main.rb $db_name
     ruby ./sulpak/main.rb $db_name
-    ruby ./evrika/main.rb $db_name
+
+    # compare data
+    ruby ./price_comparison/main.rb $db_name $db_comparison_name
     ;;
 
   esac

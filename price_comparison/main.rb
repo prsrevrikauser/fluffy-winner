@@ -4,9 +4,11 @@
   require "fuzzystringmatch"
   require "byebug"
 
-  PATH_TO_DB = "./db/competitors_data_for_20201207_035919_all.db"
-  PATH_TO_COMPARISON_DB = "./db/comparison_data.db"
-  PATH_TO_JSON = "./mbt_categories.json"
+  $path_to_db = ARGV.first
+  $path_to_comparison_db = ARGV.last
+  $path_to_json = "./mbt_categories.json"
+
+  # byebug
 
   # in: String[] path to json file
   # out: Hash{} hash from json
@@ -17,14 +19,14 @@
 
   # out: Array[] with shop names
   def get_shop_names(exclude = "evrika")
-    parse_json_to_hash(PATH_TO_JSON).keys.reject { |shop| shop == exclude  }
+    parse_json_to_hash($path_to_json).keys.reject { |shop| shop == exclude  }
   end
 
   # out: Array[] all categories from json as flattened array
   def get_categories
     categories = []
 
-    data = parse_json_to_hash(PATH_TO_JSON)["evrika"]
+    data = parse_json_to_hash($path_to_json)["evrika"]
     data.each { |_c, sub_cat| categories << sub_cat.keys }
 
     categories.flatten
@@ -144,7 +146,7 @@
     rows = []
 
     begin
-      db = SQLite3::Database.open PATH_TO_DB
+      db = SQLite3::Database.open $path_to_db
       db.results_as_hash = true
   
       statement = db.prepare "SELECT #{fields} FROM `#{table}`"
@@ -179,7 +181,7 @@
     shop_names.sort.each { |sn| columns_query += "`#{sn}`," }
 
     begin
-      db = SQLite3::Database.open PATH_TO_COMPARISON_DB
+      db = SQLite3::Database.open $path_to_comparison_db
   
       # create table 'category' if it doesn't exist
       db.execute "CREATE TABLE IF NOT EXISTS `#{category}` (
@@ -263,8 +265,6 @@
 
       # byebug
     end
-
-    byebug
 
     nil
   end

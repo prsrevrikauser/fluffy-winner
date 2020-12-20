@@ -208,8 +208,8 @@
             # insert current product into db
             db.execute query
 
-            # wait for a 1/second before each insertion
-            sleep(0.5)
+            # wait for a 1/8 before each insertion
+            sleep(0.2)
 
             # ux string
             puts "* * * * successfully inserted '#{product[:title]}' into '#{table_name}'!"
