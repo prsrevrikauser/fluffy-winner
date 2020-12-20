@@ -52,6 +52,9 @@ else
 
     # compare data
     ruby ./price_comparison/main.rb $db_name $db_comparison_name
+
+    # convert db to excel
+    curl -F files[]="${db_comparison_base_name}" "https://www.rebasedata.com/api/v1/convert?outputFormat=xlsx" -o "${db_comparison_base_name}.zip"
     ;;
 
   esac
