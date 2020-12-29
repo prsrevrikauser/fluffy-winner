@@ -56,7 +56,7 @@
   end
 
   def get_mechta_json
-    file = File::read("./all_cats.json")
+    file = File::read("/home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/all_cats.json")
     JSON::parse(file)["mechta"]
   end
 

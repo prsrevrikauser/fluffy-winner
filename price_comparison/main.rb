@@ -6,7 +6,7 @@
 
   $path_to_db = ARGV.first
   $path_to_comparison_db = ARGV.last
-  $path_to_json = "./all_cats.json"
+  $path_to_json = "/home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/all_cats.json"
 
   # byebug
 

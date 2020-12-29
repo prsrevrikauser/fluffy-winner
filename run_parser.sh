@@ -9,34 +9,34 @@ if [ -z $1 ]; then
 else
   shop=$1
   now=$(date +%Y%m%d_%H%M%S)
-  db_base_name="./_data/competitors_data_${now}"
-  db_comparison_base_name="./_data/c/comparison_data_${now}"
+  db_base_name="/home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/_data/competitors_data_${now}"
+  db_comparison_base_name="/home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/_data/c/comparison_data_${now}"
 
   case $shop in
   
   "alser")
     db_name="${db_base_name}_alser.db"
-    ruby ./alser/main.rb $db_name
+    ruby /home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/alser/main.rb $db_name
     ;;
   
   "fora")
     db_name="${db_base_name}_fora.db"
-    ruby ./fora/main.rb $db_name
+    ruby /home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/fora/main.rb $db_name
     ;;
   
   "mechta")
     db_name="${db_base_name}_mechta.db"
-    ruby ./mechta/main.rb $db_name
+    ruby /home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/mechta/main.rb $db_name
     ;;
   
   "sulpak")
     db_name="${db_base_name}_sulpak.db"
-    ruby ./sulpak/main.rb $db_name
+    ruby /home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/sulpak/main.rb $db_name
     ;;
   
   "evrika")
     db_name="${db_base_name}_evrika.db"
-    ruby ./evrika/main.rb $db_name
+    ruby /home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/evrika/main.rb $db_name
     ;;
 
   "all")
@@ -44,14 +44,14 @@ else
     db_comparison_name="${db_comparison_base_name}_all.db"
 
     # parse sites
-    ruby ./evrika/main.rb $db_name
-    ruby ./alser/main.rb $db_name
-    ruby ./fora/main.rb $db_name
-    ruby ./mechta/main.rb $db_name
-    ruby ./sulpak/main.rb $db_name
+    ruby /home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/evrika/main.rb $db_name
+    ruby /home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/alser/main.rb $db_name
+    ruby /home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/fora/main.rb $db_name
+    ruby /home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/mechta/main.rb $db_name
+    ruby /home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/sulpak/main.rb $db_name
 
     # compare data
-    ruby ./price_comparison/main.rb $db_name $db_comparison_name
+    ruby /home/bbr/code/ruby/e25_mbt_copy4/fluffy-winner/price_comparison/main.rb $db_name $db_comparison_name
 
     # convert db to excel
     curl -F files[]="${db_comparison_base_name}" "https://www.rebasedata.com/api/v1/convert?outputFormat=xlsx" -o "${db_comparison_base_name}.zip"
