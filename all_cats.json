@@ -1,0 +1,1007 @@
+{
+  "evrika": {
+    "telefony": {
+      "smartfony": ["phone/smartfony"],
+      "knopochnye_telefony": ["phone/mobilnye-telefony"],
+      "provodnye_telefony": ["phone/provodnye-telefony"],
+      "radiotelefony": ["phone/radiotelefony"],
+      "racii": ["phone/ratsii"]
+    },
+    "smart_ustrojstva": {
+      "smart_chasy": ["phone/smart-ustroystva/filter/smart_type-is-smart-chasy"],
+      "fitnes_braslety": ["phone/smart-ustroystva/filter/smart_type-is-smart-braslety"],
+      "ochki_virtualnoj_realnosti": ["phone/smart-ustroystva/filter/smart_type-is-ochki-vr"]
+    },
+    "aksessuary_dlja_telefonov": {
+      "naushniki": ["phone/naushniki"],
+      "chehly": ["phone/chekhly"],
+      "zashhitnye_plenki_stekla": ["phone/zashchitnye-plenki"],
+      "setevoe_zarjadnoe_ustrojstvo": ["phone/setevoe-zaryadnoe-ustroystvo"],
+      "monopody": ["phone/monopody"],
+      "vneshnie_akkumuljatory": ["phone/vneshnie-akkumulyatory"],
+      "besprovodnye_kolonki": ["phone/besprovodnye-kolonki"]
+    },
+    "noutbuki_netbuki": {
+      "noutbuki_netbuki": ["pc/noutbuki"],
+      "aksessuary_dlja_noutbukov": ["pc/aksessuar-dlya-noutbukov"]
+    },
+    "planshety_jelektronnye_knigi": {
+      "planshety": ["pc/planshety"],
+      "jelektronnye_knigi": ["pc/elektronnye-knigi"],
+      "aksessuary_dlja_planshetov": ["pc/aksessuar-dlya-planshetov"]
+    },
+    "kompjutery": {
+      "sistemnye_bloki": ["pc/sistemnye-bloki"],
+      "monitory": ["pc/monitory"],
+      "monobloki": ["pc/monobloki"],
+      "kompjuternye_myshi": ["pc/kompyuternye-myshi"],
+      "klaviatury": ["pc/klaviatury"],
+      "kolonki_dlja_pk": ["pc/kolonki-dlya-pk"],
+      "programmnoe_obespechenie": ["pc/programmnoe-obespechenie"],
+      "kompjuternye_stoly": ["pc/kompyuternye-stoly"],
+      "igrovye_kresla": ["pc/igrovye-kresla"]
+    },
+    "periferijnye_ustrojstva": {
+      "mfu": ["pc/mfu"],
+      "printery": ["pc/printery"],
+      "modemy_setevye_ustrojstva": ["pc/modemy-setevye-ustroystva"],
+      "ups": ["pc/ups"],
+      "proektory": ["pc/proektory"]
+    },
+    "aksessuary_dlja_kompjutera": {
+      "naushniki_s_mikrofonom": ["pc/naushniki-s-mikrofonom"],
+      "vneshnie_zhestkie_diski": ["pc/vneshnii-zhestkie-diski"],
+      "fljesh_nakopiteli": ["pc/flesh-nakopiteli"],
+      "tonery_kartridzhi": ["pc/tonery-i-kartridzhi"],
+      "setevye_filtry": ["pc/setevye-filtry"],
+      "igrovye_manipuljatory": ["pc/igrovye-manipulyatory"],
+      "internet_kamery": ["pc/internet-kamery"]
+    },
+    "bytovaja_tehnika": {
+      "holodilniki": ["byt/kholodilniki"],
+      "stiralnye_mashiny": ["byt/stiralnye-mashiny"],
+      "sushilnye_mashiny": ["byt/sushilnye-mashiny"],
+      "plity": ["byt/plity"],
+      "mikrovolnovye_pechi": ["byt/mikrovolnovye-pechi"],
+      "posudomoechnye_mashiny": ["byt/posudomoechnye-mashiny"],
+      "jelektricheskie_pechi": ["byt/elektricheskie-pechi"],
+      "morozilnye_kamery": ["byt/morozilnye-kamery"]
+    },
+    "vstraivaemaja_tehnika": {
+      "varochnye_paneli": ["byt/varochnye-paneli"],
+      "vytjazhki": ["byt/vytyazhki"],
+      "duhovye_shkafy": ["byt/dukhovye-shkafy"],
+      "vstraivaemye_posudomoechnye_mashiny": ["byt/vstraivaemye-posudomoechnye-mashiny"],
+      "vstraivaemye_mikrovolnovye_pechi": ["byt/vstraivaemye-mikrovolnovye-pechi"]
+    },
+    "klimaticheskaja_tehnika": {
+      "kondicionery": ["byt/konditsionery"],
+      "vodonagrevateli": ["byt/vodonagrevateli"],
+      "uvlazhniteli_vozduha": ["byt/uvlazhniteli-vozdukha"],
+      "gazovye_kolonki": ["byt/gazovye-kolonki"],
+      "ventiljatory": ["byt/ventilyatory"],
+      "obogrevateli": ["byt/obogrevateli"]
+    },
+    "televizory": {
+      "led_televizory": ["tv/led-televizory"],
+      "4k_uhd_televizory": ["tv/led-televizory/filter/screen_resolution-is-4k"],
+      "smart_televizory": ["tv/led-televizory/filter/smart_tv-is-smart-tv"],
+      "qled_4k_televizory": ["tv/led-televizory/filter/tv_technology-is-qled-4k"],
+      "qled_8k_televizory": ["tv/led-televizory/filter/tv_technology-is-qled-8k"],
+      "oled_televizory": ["tv/led-televizory/filter/tv_technology-is-oled"],
+      "qled_lifestyle_televizory": ["tv/led-televizory/filter/tv_technology-is-qled-lifestyle"]
+    },
+    "audio_video_tehnika": {
+      "muzykalnye_centry": ["tv/muzykalnye-tsentry"],
+      "domashnie_kinoteatry": ["tv/domashnie-kinoteatry"],
+      "saundbary": ["tv/saundbary"],
+      "mp3_pleery": ["tv/mp3-pleery"]
+    },
+    "tumby_kronshtejny": {
+      "kronshtejny": ["tv/kronshteyny"],
+      "tumby": ["tv/tumby"]
+    },
+    "aksessuary_dlja_tv_audio": {
+      "sputnikovoe_oborudovanie": ["tv/sputnikovoe-oborudovanie"],
+      "mikrofony": ["tv/mikrofony"],
+      "tv_priemniki_pristavki": ["tv/tv-priemniki-i-pristavki"],
+      "kabeli": ["tv/kabeli"],
+      "besprovodnye_klaviatury": ["tv/besprovodnye-klaviatury"]
+    },
+    "malaja_bytovaja_tehnika": {
+      "pylesosy": ["mbyt/pylesosy"],
+      "utjugi": ["mbyt/utyugi"],
+      "shvejnye_mashiny": ["mbyt/shveynye-mashiny"],
+      "otparivateli": ["mbyt/otparivateli"],
+      "gladilnye_doski": ["mbyt/gladilnye-doski"],
+      "parogeneratory": ["mbyt/parogeneratory"]
+    },
+    "malaja_kuhonnaja_tehnika": {
+      "blendery": ["mbyt/blendery"],
+      "kuhonnye_kombajny": ["mbyt/kukhonnye-kombayny"],
+      "miksery": ["mbyt/miksery"],
+      "multivarki": ["mbyt/multivarki"],
+      "mjasorubki": ["mbyt/myasorubki"],
+      "kofemashiny_kofevarki": ["mbyt/kofemashiny-i-kofevarki"],
+      "sokovyzhimalki": ["mbyt/sokovyzhimalki"],
+      "chajniki": ["mbyt/chayniki"],
+      "tostery": ["mbyt/tostery"],
+      "hlebopechki": ["mbyt/khlebopechki"],
+      "termopoty": ["mbyt/termopoty"],
+      "filtry_dlja_vody": ["mbyt/filtry-dlya-vody"],
+      "parovarki": ["mbyt/parovarki"],
+      "kofemolki": ["mbyt/kofemolki"],
+      "kuhonnye_vesy": ["mbyt/kukhonnye-vesy"],
+      "dispensery": ["mbyt/dispensery"],
+      "grili": ["mbyt/grili"]
+    },
+    "krasota_zdorove": {
+      "vyprjamiteli": ["mbyt/vypryamiteli"],
+      "jepiljatory": ["mbyt/epilyatory"],
+      "britvy": ["mbyt/britvy"],
+      "mashinki_dlja_strizhki_trimmery": ["mbyt/mashinki-dlya-strizhki-i-trimmery"],
+      "plojki": ["mbyt/ployki"],
+      "feny": ["mbyt/feny"],
+      "vesy": ["mbyt/vesy"],
+      "fen_shhetki": ["mbyt/fen-shchetki"]
+    },
+    "razvlechenija": {
+      "igrovye_pristavki": ["game/igrovye-pristavki"],
+      "radioupravljaemye_igrushki": ["game/radioupravlyaemye-igrushki"],
+      "virtualnaja_realnost": ["game/vr"],
+      "transport": ["game/transport"]
+    },
+    "igry_dlja_pristavok": {
+      "igry_playstation_4": ["game/igry-dlya-play-station-4-ps4"]
+    },
+    "aksessuary_dlja_pristavok": {
+      "dzhojstiki": ["game/dzhoystiki"],
+      "aksesuary": ["game/aksesuary"],
+      "kamery": ["game/kamery"]
+    },
+    "igrushki": {
+      "bazovye_mashinki": ["game/bazovye-mashinki"],
+      "konstruktory": ["game/konstruktory"],
+      "kukly": ["game/kukly"]
+    },
+    "fotoapparaty": {
+      "zerkalnye_fotoapparaty": ["photo/zerkalnye-fotoapparaty"],
+      "kompaktnye_fotoapparaty": ["photo/kompaktnye-fotoapparaty"],
+      "sistemnye_fotoapparaty": ["photo/sistemnye-fotoapparaty"],
+      "fotokamera_dlja_momentalnyh_snimkov": ["photo/fotokamera-dlya-momentaln-"]
+    },
+    "videokamery": {
+      "videokamery": ["photo/videokamery"],
+      "jekshn_kamery": ["photo/ekshn-kamery"]
+    },
+    "aksessuary_dlja_foto_video": {
+      "karty_pamjati": ["photo/karty-pamyati"],
+      "vspyshki": ["photo/vspyshki"],
+      "obektivy": ["photo/obektivy"],
+      "sumki_dlja_foto_video": ["photo/sumki-dlya-foto-video"],
+      "shtativy": ["photo/shtativy"]
+    },
+    "avtotovary": {
+      "videoregistratory": ["avto/videoregistratory"],
+      "radar_detektory": ["avto/radar-detektory"],
+      "gps_navigatory": ["avto/gps-navigatory"]
+    },
+    "avtoinstrumenty": {
+      "nabory_instrumentov": ["avto/nabory-instrumentov"],
+      "otvertki": ["avto/otvertki"],
+      "sharnirno_gubcevoj_instrument": ["avto/sharnirno-gubtsevoy-instrument"],
+      "jashhiki_dlja_instrumentov": ["avto/yashchiki-dlya-instrumentov"]
+    },
+    "avtoaksessuary": {
+      "derzhateli": ["avto/derzhateli"],
+      "zarjadnye_ustrojstva": ["avto/zaryadnye-ustroystva"],
+      "kovriki": ["avto/kovriki"],
+      "kreplenija": ["avto/krepleniya"],
+      "razvetviteli": ["avto/razvetviteli"]
+    }
+  },
+  "fora": {
+    "telefony": {
+      "smartfony": ["smartfony-plansety/smartfony"],
+      "knopochnye_telefony": ["smartfony-plansety/mobilnye-telefony"],
+      "provodnye_telefony": ["smartfony-plansety/domasnie-telefony/provodnye-telefony"],
+      "radiotelefony": ["smartfony-plansety/domasnie-telefony/radiotelefony"],
+      "racii": []
+    },
+    "smart_ustrojstva": {
+      "smart_chasy": ["smartfony-plansety/umnye-gadzety/detskie-smart-casy", "smartfony-plansety/umnye-gadzety/smart-casy"],
+      "fitnes_braslety": ["smartfony-plansety/umnye-gadzety/fitnes-braslety"],
+      "ochki_virtualnoj_realnosti": []
+    },
+    "aksessuary_dlja_telefonov": {
+      "naushniki": ["smartfony-plansety/aksessuary-dla-telefonov/bluetooth-garnitury"],
+      "chehly": ["smartfony-plansety/aksessuary-dla-telefonov/cehly-dla-smartfonov"],
+      "zashhitnye_plenki_stekla": ["smartfony-plansety/aksessuary-dla-telefonov/zasitnye-plenki-dla-smartfonov"],
+      "setevoe_zarjadnoe_ustrojstvo": ["smartfony-plansety/aksessuary-dla-telefonov/zaradnye-ustrojstva"],
+      "monopody": ["smartfony-plansety/aksessuary-dla-telefonov/monopody"],
+      "vneshnie_akkumuljatory": ["smartfony-plansety/aksessuary-dla-telefonov/vnesnie-akkumulatory"],
+      "besprovodnye_kolonki": []
+    },
+    "noutbuki_netbuki": {
+      "noutbuki_netbuki": ["noutbuki-komputery/komputery/noutbuki"],
+      "aksessuary_dlja_noutbukov": ["noutbuki-komputery/aksessuary-dla-noutbukov/zaradnye-ustrojstva-dla-noutbuka", "noutbuki-komputery/aksessuary-dla-noutbukov/podstavki-ohlazdenia-dla-noutbuka", "noutbuki-komputery/aksessuary-dla-noutbukov/sumki-dla-noutbukov"]
+    },
+    "planshety_jelektronnye_knigi": {
+      "planshety": ["smartfony-plansety/plansety"],
+      "jelektronnye_knigi": ["smartfony-plansety/elektronnye-knigi"],
+      "aksessuary_dlja_planshetov": ["smartfony-plansety/aksessuary-dla-plansetov/cehly-dla-plansetov"]
+    },
+    "kompjutery": {
+      "sistemnye_bloki": ["noutbuki-komputery/komputery/sistemnye-bloki"],
+      "monitory": ["orgtehnika/komputernoe-oborudovanie/monitory"],
+      "monobloki": ["noutbuki-komputery/komputery/monobloki"],
+      "kompjuternye_myshi": ["orgtehnika/komputernoe-oborudovanie/mysi"],
+      "klaviatury": ["orgtehnika/komputernoe-oborudovanie/klaviatury"],
+      "kolonki_dlja_pk": ["orgtehnika/komputernoe-oborudovanie/zvukovye-kolonki"],
+      "programmnoe_obespechenie": ["noutbuki-komputery/programnoe-obespecenie"],
+      "kompjuternye_stoly": [],
+      "igrovye_kresla": ["noutbuki-komputery/komputernye-kresla"]
+    },
+    "periferijnye_ustrojstva": {
+      "mfu": ["orgtehnika/mfu"],
+      "printery": ["orgtehnika/printery"],
+      "modemy_setevye_ustrojstva": ["noutbuki-komputery/setevoe-oborudovanie/marsrutizatory", "noutbuki-komputery/dostup-k-internetu", "noutbuki-komputery/setevoe-oborudovanie/besprovodnye-wi-fi-adaptery"],
+      "ups": ["orgtehnika/elektropitanie/istocniki-besperebojnogo-pitania"],
+      "proektory": ["foto-i-video/proektory"]
+    },
+    "aksessuary_dlja_kompjutera": {
+      "naushniki_s_mikrofonom": ["televizory-audio-video/nausniki"],
+      "vneshnie_zhestkie_diski": ["noutbuki-komputery/nositeli-informacii/vnesnie-nakopiteli"],
+      "fljesh_nakopiteli": ["noutbuki-komputery/nositeli-informacii/fleski"],
+      "tonery_kartridzhi": ["orgtehnika/rashodnye-materialy/kartridzi", "orgtehnika/rashodnye-materialy/tonery"],
+      "setevye_filtry": ["orgtehnika/elektropitanie/setevye-filtry"],
+      "igrovye_manipuljatory": ["tovary-dla-razvlecenij-i-otdyha/igry-i-razvlecenia/ruli-i-pedali"],
+      "internet_kamery": ["orgtehnika/komputernoe-oborudovanie/web-kamery"]
+    },
+    "bytovaja_tehnika": {
+      "holodilniki": ["tehnika-dla-kuhni/kbt/holodilniki"],
+      "stiralnye_mashiny": ["tehnika-dla-doma/stiralnye-masiny"],
+      "sushilnye_mashiny": ["tehnika-dla-doma/susilnye-masiny"],
+      "plity": ["tehnika-dla-kuhni/kbt/gazovye-plity", "tehnika-dla-kuhni/kbt/kombinirovannye-plity"],
+      "mikrovolnovye_pechi": ["tehnika-dla-kuhni/prigotovlenie-blud/mikrovolnovye-peci"],
+      "posudomoechnye_mashiny": ["tehnika-dla-kuhni/kbt/posudomoecnye-masiny"],
+      "jelektricheskie_pechi": ["tehnika-dla-kuhni/kbt/elektriceskie-plity"],
+      "morozilnye_kamery": ["tehnika-dla-kuhni/kbt/morozilnye-kamery"]
+    },
+    "vstraivaemaja_tehnika": {
+      "varochnye_paneli": ["tehnika-dla-kuhni/kbt/vstraivaemye-poverhnosti"],
+      "vytjazhki": ["tehnika-dla-kuhni/kbt/vytazki"],
+      "duhovye_shkafy": ["tehnika-dla-kuhni/kbt/vstraivaemye-duhovki"],
+      "vstraivaemye_posudomoechnye_mashiny": ["tehnika-dla-kuhni/kbt/posudomoecnye-masiny"],
+      "vstraivaemye_mikrovolnovye_pechi": ["tehnika-dla-kuhni/prigotovlenie-blud/mikrovolnovye-peci"]
+    },
+    "klimaticheskaja_tehnika": {
+      "kondicionery": ["tehnika-dla-doma/klimaticeskaa-tehnika/kondicionery"],
+      "vodonagrevateli": [],
+      "uvlazhniteli_vozduha": ["tehnika-dla-doma/klimaticeskaa-tehnika/uvlazniteli-vozduha"],
+      "gazovye_kolonki": ["tehnika-dla-doma/klimaticeskaa-tehnika/kotly"],
+      "ventiljatory": ["tehnika-dla-doma/klimaticeskaa-tehnika/ventilatory"],
+      "obogrevateli": ["tehnika-dla-doma/klimaticeskaa-tehnika/obogrevateli"]
+    },
+    "televizory": {
+      "led_televizory": ["televizory-audio-video/led-televizory"],
+      "4k_uhd_televizory": ["televizory-audio-video/4k-televizory"],
+      "smart_televizory": ["televizory-audio-video/smart-televizory"],
+      "qled_4k_televizory": [],
+      "qled_8k_televizory": [],
+      "oled_televizory": [],
+      "qled_lifestyle_televizory": ["televizory-audio-video/qled-lifestyle"]
+    },
+    "audio_video_tehnika": {
+      "muzykalnye_centry": ["televizory-audio-video/audiotehnika/audiosistemy"],
+      "domashnie_kinoteatry": ["televizory-audio-video/videotehnika/domasnie-kinoteatry"],
+      "saundbary": [],
+      "mp3_pleery": ["televizory-audio-video/audiotehnika/mp3-pleery"]
+    },
+    "tumby_kronshtejny": {
+      "kronshtejny": ["televizory-audio-video/aksessuary-dla-televizorov/kronstejny"],
+      "tumby": []
+    },
+    "aksessuary_dlja_tv_audio": {
+      "sputnikovoe_oborudovanie": ["televizory-audio-video/aksessuary-dla-televizorov/televizionnye-antenny"],
+      "mikrofony": ["televizory-audio-video/aksessuary-dla-televizorov/mikrofony"],
+      "tv_priemniki_pristavki": ["televizory-audio-video/tv-tunery"],
+      "kabeli": [],
+      "besprovodnye_klaviatury": ["televizory-audio-video/aksessuary-dla-televizorov/klaviatury-dla-smart-tv"]
+    },
+    "malaja_bytovaja_tehnika": {
+      "pylesosy": ["tehnika-dla-doma/uborka-doma/pylesosy"],
+      "utjugi": ["tehnika-dla-doma/uhod-za-odezdoj/utugi"],
+      "shvejnye_mashiny": ["tehnika-dla-doma/uhod-za-odezdoj/svejnye-masiny"],
+      "otparivateli": ["tehnika-dla-doma/uhod-za-odezdoj/otparivateli"],
+      "gladilnye_doski": ["tehnika-dla-doma/uhod-za-odezdoj/gladilnye-doski"],
+      "parogeneratory": []
+    },
+    "malaja_kuhonnaja_tehnika": {
+      "blendery": ["tehnika-dla-kuhni/izmelcenie-i-smesivanie/blendery"],
+      "kuhonnye_kombajny": ["tehnika-dla-kuhni/izmelcenie-i-smesivanie/kuhonnye-kombajny"],
+      "miksery": ["tehnika-dla-kuhni/izmelcenie-i-smesivanie/miksery"],
+      "multivarki": ["tehnika-dla-kuhni/prigotovlenie-blud/multivarki"],
+      "mjasorubki": ["tehnika-dla-kuhni/izmelcenie-i-smesivanie/elektromasorubki"],
+      "kofemashiny_kofevarki": ["tehnika-dla-kuhni/prigotovlenie-kofe/kofemasiny"],
+      "sokovyzhimalki": ["tehnika-dla-kuhni/prigotovlenie-kofe/kofevarki"],
+      "chajniki": ["tehnika-dla-kuhni/prigotovlenie-napitkov/elektrocajniki"],
+      "tostery": ["tehnika-dla-kuhni/prigotovlenie-blud/tostery"],
+      "hlebopechki": ["tehnika-dla-kuhni/prigotovlenie-blud/hlebopecki"],
+      "termopoty": ["tehnika-dla-kuhni/prigotovlenie-napitkov/termopoty"],
+      "filtry_dlja_vody": ["tehnika-dla-kuhni/prigotovlenie-napitkov/filtry-kuvsiny"],
+      "parovarki": [],
+      "kofemolki": ["tehnika-dla-kuhni/prigotovlenie-kofe/kofemolki"],
+      "kuhonnye_vesy": ["tehnika-dla-kuhni/kuhonnye-vesy"],
+      "dispensery": [],
+      "grili": ["tehnika-dla-kuhni/prigotovlenie-blud/grili"]
+    },
+    "krasota_zdorove": {
+      "vyprjamiteli": ["krasota-i-zdorove/uhod-za-volosami/vypramiteli"],
+      "jepiljatory": ["krasota-i-zdorove/tovary-dla-krasoty/epilatory"],
+      "britvy": [],
+      "mashinki_dlja_strizhki_trimmery": ["krasota-i-zdorove/uhod-za-volosami/masinki-dla-strizki", "krasota-i-zdorove/uhod-za-volosami/trimmery"],
+      "plojki": ["krasota-i-zdorove/uhod-za-volosami/plojki"],
+      "feny": ["krasota-i-zdorove/uhod-za-volosami/feny"],
+      "vesy": [],
+      "fen_shhetki": []
+    },
+    "razvlechenija": {
+      "igrovye_pristavki": ["tovary-dla-razvlecenij-i-otdyha/igry-i-razvlecenia/igrovye-pristavki"],
+      "radioupravljaemye_igrushki": ["tovary-dla-razvlecenij-i-otdyha/igruski/radioupravlaemye-igruski"],
+      "virtualnaja_realnost": [],
+      "transport": ["tovary-dla-razvlecenij-i-otdyha/giroskutery", "tovary-dla-razvlecenij-i-otdyha/elektrosamokaty"]
+    },
+    "igry_dlja_pristavok": {
+      "igry_playstation_4": ["tovary-dla-razvlecenij-i-otdyha/igry-i-razvlecenia/videoigry-dla-pristavok"]
+    },
+    "aksessuary_dlja_pristavok": {
+      "dzhojstiki": ["tovary-dla-razvlecenij-i-otdyha/igry-i-razvlecenia/dzojstiki"],
+      "aksesuary": ["tovary-dla-razvlecenij-i-otdyha/igry-i-razvlecenia/aksessuary-dla-igrovyh-pristavok"],
+      "kamery": []
+    },
+    "igrushki": {
+      "bazovye_mashinki": ["tovary-dla-razvlecenij-i-otdyha/igruski/igrusecnye-masinki"],
+      "konstruktory": ["tovary-dla-razvlecenij-i-otdyha/konstruktory"],
+      "kukly": []
+    },
+    "fotoapparaty": {
+      "zerkalnye_fotoapparaty": ["foto-i-video/fotoapparaty/zerkalnye-fotoapparaty"],
+      "kompaktnye_fotoapparaty": [],
+      "sistemnye_fotoapparaty": [],
+      "fotokamera_dlja_momentalnyh_snimkov": []
+    },
+    "videokamery": {
+      "videokamery": ["foto-i-video/videokamery"],
+      "jekshn_kamery": ["foto-i-video/eksn-kamery"]
+    },
+    "aksessuary_dlja_foto_video": {
+      "karty_pamjati": [],
+      "vspyshki": [],
+      "obektivy": ["foto-i-video/aksessuary-dla-foto-i-video/obektivy"],
+      "sumki_dlja_foto_video": [],
+      "shtativy": ["foto-i-video/aksessuary-dla-foto-i-video/stativy"]
+    },
+    "avtotovary": {
+      "videoregistratory": ["avtotovary/avtoelektronika/videoregistratory"],
+      "radar_detektory": ["avtotovary/avtoelektronika/radar-detektory"],
+      "gps_navigatory": []
+    },
+    "avtoinstrumenty": {
+      "nabory_instrumentov": [],
+      "otvertki": [],
+      "sharnirno_gubcevoj_instrument": [],
+      "jashhiki_dlja_instrumentov": []
+    },
+    "avtoaksessuary": {
+      "derzhateli": ["avtotovary/avtomobilnye-derzateli"],
+      "zarjadnye_ustrojstva": [],
+      "kovriki": [],
+      "kreplenija": [],
+      "razvetviteli": []
+    }
+  },
+  "alser": {
+    "telefony": {
+      "smartfony": ["vse-smartfony"],
+      "knopochnye_telefony": ["knopochnye-telefony"],
+      "provodnye_telefony": ["provodnye"],
+      "radiotelefony": ["besprovodnye"],
+      "racii": []
+    },
+    "smart_ustrojstva": {
+      "smart_chasy": ["smart-watch"],
+      "fitnes_braslety": ["fitnes-braslety"],
+      "ochki_virtualnoj_realnosti": []
+    },
+    "aksessuary_dlja_telefonov": {
+      "naushniki": ["naushniki-dlja-smartfonov"],
+      "chehly": ["chehly-dlja-telefonov"],
+      "zashhitnye_plenki_stekla": ["zaschitnye-stekla-dlja-smartfonov"],
+      "setevoe_zarjadnoe_ustrojstvo": ["zarjadnye-ustrojstva"],
+      "monopody": ["selfi-palki"],
+      "vneshnie_akkumuljatory": ["portativnye-zarjadnye-ustrojstva"],
+      "besprovodnye_kolonki": []
+    },
+    "noutbuki_netbuki": {
+      "noutbuki_netbuki": ["vse-noutbuki"],
+      "aksessuary_dlja_noutbukov": ["sumki-dlja-noutbukov", "podstavki-dlja-noutbukov", "akkumuljatory", "zarjadnye-ustrojstva-dlja-noutbukov"]
+    },
+    "planshety_jelektronnye_knigi": {
+      "planshety": ["vse-planshety"],
+      "jelektronnye_knigi": [],
+      "aksessuary_dlja_planshetov": ["chehly-dlja-planshetov", "zaschitnye-plenki-dlja-planshetov", "klaviatury-dlja-planshetov", "stilusy-dlja-planshetov", "zarjadnye-ustrojstva-dlja-planshetov"]
+    },
+    "kompjutery": {
+      "sistemnye_bloki": ["vse-komp-jutery"],
+      "monitory": ["vse-monitory"],
+      "monobloki": ["monobloki"],
+      "kompjuternye_myshi": ["myshi"],
+      "klaviatury": ["klaviatury"],
+      "kolonki_dlja_pk": ["kolonki"],
+      "programmnoe_obespechenie": ["programmnoe-obespechenie"],
+      "kompjuternye_stoly": ["pc-stoly"],
+      "igrovye_kresla": ["ofisnye-kresla"]
+    },
+    "periferijnye_ustrojstva": {
+      "mfu": ["mfu-snpch", "mfu-lazernye"],
+      "printery": ["printery-snpch", "printery-lazernye"],
+      "modemy_setevye_ustrojstva": ["marshrutizatory", "oborudovanie-3g-4g", "wi-fi-oborudovanie"],
+      "ups": ["istochnik-besperebojnogo-pitanija"],
+      "proektory": ["proektory"]
+    },
+    "aksessuary_dlja_kompjutera": {
+      "naushniki_s_mikrofonom": ["igrovyenaushniki"],
+      "vneshnie_zhestkie_diski": ["vneshnie-zhestkie-diski"],
+      "fljesh_nakopiteli": ["usb-fleshki-dlja-kompjutera"],
+      "tonery_kartridzhi": ["kartridzhi-strujnye", "kartridzhi-lazernye", "toner", "kartridji-matrichnie"],
+      "setevye_filtry": ["setevye-fil-try-udliniteli"],
+      "igrovye_manipuljatory": [],
+      "internet_kamery": ["veb-kamery"]
+    },
+    "bytovaja_tehnika": {
+      "holodilniki": ["vse-holodilniki"],
+      "stiralnye_mashiny": ["vse-stiralnie-masini"],
+      "sushilnye_mashiny": ["sushil-nye-avtomaty"],
+      "plity": ["plity"],
+      "mikrovolnovye_pechi": ["mikrovolnovye-pechi"],
+      "posudomoechnye_mashiny": ["posudomoechnye-mashiny"],
+      "jelektricheskie_pechi": ["jelektricheskie-pechi"],
+      "morozilnye_kamery": ["morozil-nye-kamery"]
+    },
+    "vstraivaemaja_tehnika": {
+      "varochnye_paneli": ["gazovye-varochnye-poverhnosti", "jelektricheskie-varochnye-poverhnosti"],
+      "vytjazhki": ["vytjazhki"],
+      "duhovye_shkafy": ["duhovye-shkafy"],
+      "vstraivaemye_posudomoechnye_mashiny": ["posudomoechnye-mashiny"],
+      "vstraivaemye_mikrovolnovye_pechi": ["vstraivaemye-mikrovolnovye-peci"]
+    },
+    "klimaticheskaja_tehnika": {
+      "kondicionery": ["vse-kondicioneri"],
+      "vodonagrevateli": ["vodonagrevateli"],
+      "uvlazhniteli_vozduha": ["uvlazhniteli-vozduha"],
+      "gazovye_kolonki": ["otoplenie"],
+      "ventiljatory": ["ventiljatory"],
+      "obogrevateli": ["obogrevateli"]
+    },
+    "televizory": {
+      "led_televizory": ["vse-televizory"],
+      "4k_uhd_televizory": ["televizory-s-podderzhkoj-4k"],
+      "smart_televizory": ["televizory-smart"],
+      "qled_4k_televizory": ["televizory-s-bol-shoj-diagonal-ju"],
+      "qled_8k_televizory": ["televizory-s-bol-shoj-diagonal-ju"],
+      "oled_televizory": [],
+      "qled_lifestyle_televizory": ["lifestyle"]
+    },
+    "audio_video_tehnika": {
+      "muzykalnye_centry": ["muzykal-nye-centry"],
+      "domashnie_kinoteatry": ["proektory"],
+      "saundbary": ["vse-saundbari"],
+      "mp3_pleery": []
+    },
+    "tumby_kronshtejny": {
+      "kronshtejny": ["kronshteyny"],
+      "tumby": []
+    },
+    "aksessuary_dlja_tv_audio": {
+      "sputnikovoe_oborudovanie": ["antenny-i-resivery"],
+      "mikrofony": ["mikrofony"],
+      "tv_priemniki_pristavki": ["pristavki-dlja-cifrovogo-tv"],
+      "kabeli": ["kabeli"],
+      "besprovodnye_klaviatury": []
+    },
+    "malaja_bytovaja_tehnika": {
+      "pylesosy": ["vse-pilesosy"],
+      "utjugi": ["vse-utyugi"],
+      "shvejnye_mashiny": ["shvejnye-mashinki"],
+      "otparivateli": [],
+      "gladilnye_doski": ["parogeneratory-i-gladilnye-sistemy"],
+      "parogeneratory": ["parogeneratory-i-gladilnye-sistemy"]
+    },
+    "malaja_kuhonnaja_tehnika": {
+      "blendery": ["vse-blendery"],
+      "kuhonnye_kombajny": ["kuhonnye-kombajny"],
+      "miksery": ["vse-miksery"],
+      "multivarki": ["mul-tivarki"],
+      "mjasorubki": ["mjasorubki"],
+      "kofemashiny_kofevarki": ["kofevarki", "kofemashinki"],
+      "sokovyzhimalki": ["sokovyzhimalki"],
+      "chajniki": ["vse-elchainiki"],
+      "tostery": ["tostery"],
+      "hlebopechki": ["hlebopechki"],
+      "termopoty": ["termopoty"],
+      "filtry_dlja_vody": ["fil-try-kuvshiny"],
+      "parovarki": ["parovarki"],
+      "kofemolki": [],
+      "kuhonnye_vesy": ["vesy-kuhonnye"],
+      "dispensery": [],
+      "grili": ["grili"]
+    },
+    "krasota_zdorove": {
+      "vyprjamiteli": ["vyprjamiteli-dlja-volos"],
+      "jepiljatory": ["jepiljatory-zhenskie-jelektrobritvy"],
+      "britvy": ["jelektrobritvy-dlja-muzhchin"],
+      "mashinki_dlja_strizhki_trimmery": ["mashinki-dlja-strizhki-volos", "trimmery"],
+      "plojki": ["plojki"],
+      "feny": ["feny"],
+      "vesy": ["napol-nye-vesy"],
+      "fen_shhetki": ["feny"]
+    },
+    "razvlechenija": {
+      "igrovye_pristavki": [],
+      "radioupravljaemye_igrushki": [],
+      "virtualnaja_realnost": [],
+      "transport": ["samokati"]
+    },
+    "igry_dlja_pristavok": {
+      "igry_playstation_4": ["igry"]
+    },
+    "aksessuary_dlja_pristavok": {
+      "dzhojstiki": ["gejmpady-i-dzhojstiki"],
+      "aksesuary": [],
+      "kamery": []
+    },
+    "igrushki": {
+      "bazovye_mashinki": ["mashinki"],
+      "konstruktory": ["konstruktory"],
+      "kukly": ["kukli"]
+    },
+    "fotoapparaty": {
+      "zerkalnye_fotoapparaty": [],
+      "kompaktnye_fotoapparaty": [],
+      "sistemnye_fotoapparaty": [],
+      "fotokamera_dlja_momentalnyh_snimkov": []
+    },
+    "videokamery": {
+      "videokamery": ["video-kamery"],
+      "jekshn_kamery": ["vse-eksh-kameri"]
+    },
+    "aksessuary_dlja_foto_video": {
+      "karty_pamjati": ["karty-pamjati-dlja-fototehniki"],
+      "vspyshki": [],
+      "obektivy": [],
+      "sumki_dlja_foto_video": ["sumki-dlja-foto-i-videokamer"],
+      "shtativy": ["monopody"]
+    },
+    "avtotovary": {
+      "videoregistratory": ["vse-videoregistratori"],
+      "radar_detektory": ["radar-detektory"],
+      "gps_navigatory": ["gps-navigatory"]
+    },
+    "avtoinstrumenty": {
+      "nabory_instrumentov": ["nabor-instrumebtov"],
+      "otvertki": ["otvertka"],
+      "sharnirno_gubcevoj_instrument": [],
+      "jashhiki_dlja_instrumentov": []
+    },
+    "avtoaksessuary": {
+      "derzhateli": ["derzhateli-dlja-smartfonov"],
+      "zarjadnye_ustrojstva": ["avtomobilnyie-zaryadnyie-ustrojstva"],
+      "kovriki": [],
+      "kreplenija": [],
+      "razvetviteli": []
+    }
+  },
+  "mechta": {
+    "telefony": {
+      "smartfony": ["smartfony"],
+      "knopochnye_telefony": ["telefony-i-radiostantsii"],
+      "provodnye_telefony": ["telefony-provodnye"],
+      "radiotelefony": ["telefony-i-radiostantsii"],
+      "racii": []
+    },
+    "smart_ustrojstva": {
+      "smart_chasy": ["smart-chasy"],
+      "fitnes_braslety": ["fitnes-braslety"],
+      "ochki_virtualnoj_realnosti": ["ochki-virtualnoy-realnosti"]
+    },
+    "aksessuary_dlja_telefonov": {
+      "naushniki": ["naushniki"],
+      "chehly": ["chehly"],
+      "zashhitnye_plenki_stekla": ["zashchitnye-plenki"],
+      "setevoe_zarjadnoe_ustrojstvo": ["zaryadka-ot-seti", "besprovodnye-zaryadnye-ustroystva"],
+      "monopody": ["monopody"],
+      "vneshnie_akkumuljatory": ["portativnye-power-bank"],
+      "besprovodnye_kolonki": ["portativnye-kolonki"]
+    },
+    "noutbuki_netbuki": {
+      "noutbuki_netbuki": ["noutbuki"],
+      "aksessuary_dlja_noutbukov": ["aksessuary-dlya-noutbukov-i-planshetov"]
+    },
+    "planshety_jelektronnye_knigi": {
+      "planshety": ["planshety"],
+      "jelektronnye_knigi": ["elektronnye-knigi"],
+      "aksessuary_dlja_planshetov": ["aksessuary-dlya-planshetov"]
+    },
+    "kompjutery": {
+      "sistemnye_bloki": ["sistemnye-bloki"],
+      "monitory": ["monitory"],
+      "monobloki": ["multimediynye-monobloki"],
+      "kompjuternye_myshi": ["myshi"],
+      "klaviatury": ["klaviatury"],
+      "kolonki_dlja_pk": ["akusticheskie-sistemy"],
+      "programmnoe_obespechenie": ["programmnoe-obespechenie"],
+      "kompjuternye_stoly": ["kompyuternye-stoly"],
+      "igrovye_kresla": ["igrovye-kresla"]
+    },
+    "periferijnye_ustrojstva": {
+      "mfu": ["mnogofunkcionalnye-ustroystva"],
+      "printery": ["printery"],
+      "modemy_setevye_ustrojstva": ["modemy"],
+      "ups": ["bloki-bespereboynogo-pitaniya"],
+      "proektory": ["proektory"]
+    },
+    "aksessuary_dlja_kompjutera": {
+      "naushniki_s_mikrofonom": ["garnitury-dlya-pk", "igrovye"],
+      "vneshnie_zhestkie_diski": ["vneshnie-jestkie-diski-ssd", "vneshnie-jestkie-diski"],
+      "fljesh_nakopiteli": ["flesh-nakopiteli"],
+      "tonery_kartridzhi": ["kartridj-tonery"],
+      "setevye_filtry": ["setevye-filtra"],
+      "igrovye_manipuljatory": ["geympady"],
+      "internet_kamery": ["web-kamery"]
+    },
+    "bytovaja_tehnika": {
+      "holodilniki": ["holodilniki"],
+      "stiralnye_mashiny": ["stiralnye-mashiny"],
+      "sushilnye_mashiny": ["sushilnye-mashiny"],
+      "plity": ["gazovye-plity/", "nastolnye-plitki"],
+      "mikrovolnovye_pechi": ["mikrovolnovye-pechi"],
+      "posudomoechnye_mashiny": ["posudomoechnye-mashiny"],
+      "jelektricheskie_pechi": ["nastolnye-elektropechi"],
+      "morozilnye_kamery": ["morozilniki"]
+    },
+    "vstraivaemaja_tehnika": {
+      "varochnye_paneli": ["vstraivaemye-varochnye-poverhnosti"],
+      "vytjazhki": ["vytyajki"],
+      "duhovye_shkafy": ["vstraivaemye-duhovye-shkafy"],
+      "vstraivaemye_posudomoechnye_mashiny": ["vstraivaemye-posudomoechnye-mashiny"],
+      "vstraivaemye_mikrovolnovye_pechi": ["vstraivaemye-mikrovolnovye-pechi"]
+    },
+    "klimaticheskaja_tehnika": {
+      "kondicionery": ["kondicionery"],
+      "vodonagrevateli": ["vodonagrevateli"],
+      "uvlazhniteli_vozduha": ["uvlajniteli-osushiteli"],
+      "gazovye_kolonki": [],
+      "ventiljatory": ["ventilyatory"],
+      "obogrevateli": ["obogrevateli"]
+    },
+    "televizory": {
+      "led_televizory": ["led-televizory"],
+      "4k_uhd_televizory": ["led-4k-televizory"],
+      "smart_televizory": [],
+      "qled_4k_televizory": ["qled-televizory"],
+      "qled_8k_televizory": ["led-8k-televizory"],
+      "oled_televizory": ["oled-televizory"],
+      "qled_lifestyle_televizory": ["qled-4k-televizory"]
+    },
+    "audio_video_tehnika": {
+      "muzykalnye_centry": ["muzykalnye-centry"],
+      "domashnie_kinoteatry": ["domashnie-kinoteatry"],
+      "saundbary": ["domashnie-kinoteatry"],
+      "mp3_pleery": []
+    },
+    "tumby_kronshtejny": {
+      "kronshtejny": ["kronshteyny-dlya-tv"],
+      "tumby": ["tumby"]
+    },
+    "aksessuary_dlja_tv_audio": {
+      "sputnikovoe_oborudovanie": ["antenny-televizionnye"],
+      "mikrofony": ["mikrofony"],
+      "tv_priemniki_pristavki": ["tv-pristavki-i-priemniki"],
+      "kabeli": ["kabeliperehodniki"],
+      "besprovodnye_klaviatury": []
+    },
+    "malaja_bytovaja_tehnika": {
+      "pylesosy": ["pylesosy", "pylesosy-dlya-suhoy-i-vlajnoy-uborki-moyushchie-pylesosy-aqua", "robot---pylesosy", "vertikalnye-pylesosy"],
+      "utjugi": ["utyugi-mm7"],
+      "shvejnye_mashiny": ["shveynye-mashiny-2on"],
+      "otparivateli": ["otparivateli-dlya-odejdy"],
+      "gladilnye_doski": ["gladilnye-doski"],
+      "parogeneratory": ["utyugi-s-parogeneratorom"]
+    },
+    "malaja_kuhonnaja_tehnika": {
+      "blendery": ["ruchnye-blendery", "stacionarnye-blendery"],
+      "kuhonnye_kombajny": ["kuhonnye-kombayny"],
+      "miksery": ["miksery"],
+      "multivarki": ["multivarki"],
+      "mjasorubki": ["myasorubki"],
+      "kofemashiny_kofevarki": ["kofevarki", "kofemashiny-mfg"],
+      "sokovyzhimalki": ["sokovyjimalki"],
+      "chajniki": ["chayniki-dgx"],
+      "tostery": ["tostery"],
+      "hlebopechki": ["hlebopechki"],
+      "termopoty": ["termopoty"],
+      "filtry_dlja_vody": ["vodoochistiteli"],
+      "parovarki": ["parovarki"],
+      "kofemolki": ["kofemolki"],
+      "kuhonnye_vesy": ["vesy-kuhonnye"],
+      "dispensery": [],
+      "grili": ["elektrogrili"]
+    },
+    "krasota_zdorove": {
+      "vyprjamiteli": ["vypryamiteli-volos"],
+      "jepiljatory": ["epilyatory"],
+      "britvy": ["elektrobritvy"],
+      "mashinki_dlja_strizhki_trimmery": ["mashinki-dlya-strijki-volos", "trimmer-dlya-strijki-borody-i-uhonos"],
+      "plojki": ["ployki"],
+      "feny": ["feny"],
+      "vesy": ["vesy-napolnye"],
+      "fen_shhetki": ["feny-ployki"]
+    },
+    "razvlechenija": {
+      "igrovye_pristavki": ["igrovye-pristavki"],
+      "radioupravljaemye_igrushki": ["radioupravlyaemye-igrushki"],
+      "virtualnaja_realnost": ["shlem-virtualnoy-realnosti"],
+      "transport": ["giroskutery", "elektrosamokaty", "elektrovelosipedy", "elektroroliki"]
+    },
+    "igry_dlja_pristavok": {
+      "igry_playstation_4": ["igry-dlya-playstation-4-ps4"]
+    },
+    "aksessuary_dlja_pristavok": {
+      "dzhojstiki": ["aksessuary-dlya-igrovyh-pristavok-i-pc"],
+      "aksesuary": ["aksessuary-dlya-igrovyh-pristavok-i-pc"],
+      "kamery": []
+    },
+    "igrushki": {
+      "bazovye_mashinki": [],
+      "konstruktory": ["konstruktory"],
+      "kukly": []
+    },
+    "fotoapparaty": {
+      "zerkalnye_fotoapparaty": ["zerkalnye-fotoapparaty"],
+      "kompaktnye_fotoapparaty": ["kompaktnye-fotoapparaty"],
+      "sistemnye_fotoapparaty": [],
+      "fotokamera_dlja_momentalnyh_snimkov": ["fotoapparaty-momentalnoy-pechati"]
+    },
+    "videokamery": {
+      "videokamery": ["videokamery-68t"],
+      "jekshn_kamery": ["ekshn-kamery"]
+    },
+    "aksessuary_dlja_foto_video": {
+      "karty_pamjati": [],
+      "vspyshki": ["vspyshki-dlya-zerkalnyh-fotoapparatov"],
+      "obektivy": ["obektivy-dlya-zerkalnyh-fotoapparatov"],
+      "sumki_dlja_foto_video": ["sumki-dlya-zerkalnyh-fotoapparatov"],
+      "shtativy": ["shtativy"]
+    },
+    "avtotovary": {
+      "videoregistratory": ["videoregistratory"],
+      "radar_detektory": ["radar-detektory"],
+      "gps_navigatory": []
+    },
+    "avtoinstrumenty": {
+      "nabory_instrumentov": [],
+      "otvertki": [],
+      "sharnirno_gubcevoj_instrument": [],
+      "jashhiki_dlja_instrumentov": []
+    },
+    "avtoaksessuary": {
+      "derzhateli": ["derjateli"],
+      "zarjadnye_ustrojstva": ["zaryadnye-ustroystva-v-avtomobil"],
+      "kovriki": [],
+      "kreplenija": [],
+      "razvetviteli": ["razvetviteli-prikurivatelya"]
+    }
+  },
+  "sulpak": {
+    "telefony": {
+      "smartfony": ["smartfoniy"],
+      "knopochnye_telefony": ["mobilniye_telefoniy"],
+      "provodnye_telefony": [],
+      "radiotelefony": ["ofisniye_telefoniy"],
+      "racii": ["radiostancii"]
+    },
+    "smart_ustrojstva": {
+      "smart_chasy": ["smart_chasiy"],
+      "fitnes_braslety": ["fitnes_brasletiy"],
+      "ochki_virtualnoj_realnosti": ["zd_ochki"]
+    },
+    "aksessuary_dlja_telefonov": {
+      "naushniki": ["naushniki"],
+      "chehly": ["chehliy_k_telefonam"],
+      "zashhitnye_plenki_stekla": ["zashchitniye_plyonki_naklejki"],
+      "setevoe_zarjadnoe_ustrojstvo": ["zaryadniye_ustrojstva_k_telefonam"],
+      "monopody": ["monopodiy"],
+      "vneshnie_akkumuljatory": ["akkumulyatoriy_k_telefonam"],
+      "besprovodnye_kolonki": ["dok_stancii"]
+    },
+    "noutbuki_netbuki": {
+      "noutbuki_netbuki": ["noutbuki"],
+      "aksessuary_dlja_noutbukov": ["akkumulyatoriy_dlya_noutbukov", "bloki_pitaniya_dlya_noutbukov", "podstavki_i_ventilyatoriy", "sumki_dlya_noutbukov"]
+    },
+    "planshety_jelektronnye_knigi": {
+      "planshety": ["planshetiy"],
+      "jelektronnye_knigi": ["elektronniye_knigi"],
+      "aksessuary_dlja_planshetov": ["chehliy_k_telefonam/almaty/63438_2"]
+    },
+    "kompjutery": {
+      "sistemnye_bloki": ["sistemniye_bloki"],
+      "monitory": ["monitoriy"],
+      "monobloki": ["monobloki"],
+      "kompjuternye_myshi": ["kompyuterniye_miyshi"],
+      "klaviatury": ["klaviaturiy"],
+      "kolonki_dlja_pk": ["kompyuterniye_kolonki"],
+      "programmnoe_obespechenie": ["progrmmnoe_obespechenie", "antivirusiy", "operacionniye_sistemiy_i_ofisnoe_po"],
+      "kompjuternye_stoly": [],
+      "igrovye_kresla": ["ofisniye_kresla"]
+    },
+    "periferijnye_ustrojstva": {
+      "mfu": ["mnogofunkcionalniye_ustrojstva"],
+      "printery": ["printeriy"],
+      "modemy_setevye_ustrojstva": ["modemiy_i_routeriy"],
+      "ups": ["istochniki"],
+      "proektory": ["proektoriy"]
+    },
+    "aksessuary_dlja_kompjutera": {
+      "naushniki_s_mikrofonom": ["naushniki/almaty/8714_1-8596_3-27928_5"],
+      "vneshnie_zhestkie_diski": ["vneshnie_zhestkie_diski"],
+      "fljesh_nakopiteli": ["flesh_nakopiteli"],
+      "tonery_kartridzhi": ["kartridzhi_i_chernila"],
+      "setevye_filtry": ["istochniki_bp_i_filtriy"],
+      "igrovye_manipuljatory": [],
+      "internet_kamery": ["web_kameriy"]
+    },
+    "bytovaja_tehnika": {
+      "holodilniki": ["holodilniki"],
+      "stiralnye_mashiny": ["stiralniye_mashiniy"],
+      "sushilnye_mashiny": ["sushilniye_apparatiy"],
+      "plity": ["plitiy"],
+      "mikrovolnovye_pechi": ["mikrovolnoviye_pechi/almaty/73602_194"],
+      "posudomoechnye_mashiny": ["posudomoechniye_mashiniy"],
+      "jelektricheskie_pechi": ["mini_pech_elektricheskaya"],
+      "morozilnye_kamery": ["morozilniki_i_lari"]
+    },
+    "vstraivaemaja_tehnika": {
+      "varochnye_paneli": ["poverhnosti"],
+      "vytjazhki": ["viytyazhki"],
+      "duhovye_shkafy": ["duhoviye_shkafiy"],
+      "vstraivaemye_posudomoechnye_mashiny": ["vstraivaemiye_posudomoechniye_mashiniy"],
+      "vstraivaemye_mikrovolnovye_pechi": ["mikrovolnoviye_pechi/almaty/73602_6"]
+    },
+    "klimaticheskaja_tehnika": {
+      "kondicionery": ["kondicioneriy", "kolonniye_kondicioneriy"],
+      "vodonagrevateli": ["vodonagrevateli_protochniye"],
+      "uvlazhniteli_vozduha": ["uvlazhniteli"],
+      "gazovye_kolonki": ["otopitelniye_kotliy"],
+      "ventiljatory": ["ventilyatoriy"],
+      "obogrevateli": ["obogrevatelniye_priboriy"]
+    },
+    "televizory": {
+      "led_televizory": ["led_oled_televizoriy/almaty/12133_7"],
+      "4k_uhd_televizory": ["led_oled_televizoriy/almaty/2430_59"],
+      "smart_televizory": ["led_oled_televizoriy/almaty/8766_6"],
+      "qled_4k_televizory": ["led_oled_televizoriy/almaty/12133_5"],
+      "qled_8k_televizory": ["led_oled_televizoriy/almaty/12133_9"],
+      "oled_televizory": ["led_oled_televizoriy/almaty/12133_2"],
+      "qled_lifestyle_televizory": ["led_oled_televizoriy/almaty/12133_11"]
+    },
+    "audio_video_tehnika": {
+      "muzykalnye_centry": ["muziykalniye_centriy"],
+      "domashnie_kinoteatry": ["domashnie_kinoteatriy"],
+      "saundbary": ["saundbariy"],
+      "mp3_pleery": ["mpz_pleeriy"]
+    },
+    "tumby_kronshtejny": {
+      "kronshtejny": ["tv_kronshtejniy"],
+      "tumby": ["tv_tumbiy"]
+    },
+    "aksessuary_dlja_tv_audio": {
+      "sputnikovoe_oborudovanie": ["sputnikovoe_oborudovanie"],
+      "mikrofony": ["mikrofoniy"],
+      "tv_priemniki_pristavki": ["smart_pristavki"],
+      "kabeli": ["perehodniki"],
+      "besprovodnye_klaviatury": []
+    },
+    "malaja_bytovaja_tehnika": {
+      "pylesosy": ["piylesosiy"],
+      "utjugi": ["utyugi"],
+      "shvejnye_mashiny": ["shvejniye_mashiniy"],
+      "otparivateli": ["otparivateli"],
+      "gladilnye_doski": ["gladilniye_doski"],
+      "parogeneratory": ["parogeneratoriy"]
+    },
+    "malaja_kuhonnaja_tehnika": {
+      "blendery": ["blenderiy", "stacionarniye_blenderiy"],
+      "kuhonnye_kombajny": ["kuhonniye_kombajniy"],
+      "miksery": ["mikseriy"],
+      "multivarki": ["mutivarka"],
+      "mjasorubki": ["myasorubki"],
+      "kofemashiny_kofevarki": ["kofemashiniy", "kofevarki_espresso", "kofevarki", "kofevarki_kapsulniye", "kofevarki_gejzerniye"],
+      "sokovyzhimalki": ["sokoviyzhimalki", "sokoviyzhimalki_dlya_citrusoviyh"],
+      "chajniki": ["elektrochajniki"],
+      "tostery": ["tosteriy"],
+      "hlebopechki": ["hlebopechi"],
+      "termopoty": ["termopot"],
+      "filtry_dlja_vody": ["tip_filtra"],
+      "parovarki": ["parovarki"],
+      "kofemolki": ["kofemolka"],
+      "kuhonnye_vesy": ["kuhonniye_vesiy"],
+      "dispensery": ["dispenseriy__kuler"],
+      "grili": ["grili"]
+    },
+    "krasota_zdorove": {
+      "vyprjamiteli": ["viypryamiteli"],
+      "jepiljatory": ["epilyatoriy"],
+      "britvy": ["britviy_i_epilyatoriy"],
+      "mashinki_dlja_strizhki_trimmery": ["strizhka_volos", "trimmeriy"],
+      "plojki": [],
+      "feny": ["ukladka_volos"],
+      "vesy": ["vesiy"],
+      "fen_shhetki": ["fen_shchetki"]
+    },
+    "razvlechenija": {
+      "igrovye_pristavki": ["igroviye_pristavki"],
+      "radioupravljaemye_igrushki": ["mashinki"],
+      "virtualnaja_realnost": ["zd_ochki"],
+      "transport": ["giroskuteriy", "giroskuteriy_i_aksessuariy"]
+    },
+    "igry_dlja_pristavok": {
+      "igry_playstation_4": ["igriy_dlya_pristavok/almaty/64453_14"]
+    },
+    "aksessuary_dlja_pristavok": {
+      "dzhojstiki": ["igroviye_manipulyatoriy"],
+      "aksesuary": ["aksessuariy_dlya_igroviyh_pristavok"],
+      "kamery": []
+    },
+    "igrushki": {
+      "bazovye_mashinki": ["mashinki"],
+      "konstruktory": ["konstruktoriy"],
+      "kukly": ["kukliy"]
+    },
+    "fotoapparaty": {
+      "zerkalnye_fotoapparaty": ["zerkalniye_fotoapparatiy"],
+      "kompaktnye_fotoapparaty": ["fotoapparatiy"],
+      "sistemnye_fotoapparaty": ["sistemniye_fotoapparatiy"],
+      "fotokamera_dlja_momentalnyh_snimkov": []
+    },
+    "videokamery": {
+      "videokamery": ["videokameriy"],
+      "jekshn_kamery": ["ekshn_kameriy"]
+    },
+    "aksessuary_dlja_foto_video": {
+      "karty_pamjati": ["kartiy_pamyati"],
+      "vspyshki": ["vspiyshki"],
+      "obektivy": ["obektiviy"],
+      "sumki_dlja_foto_video": ["fotosumki_i_chehliy"],
+      "shtativy": ["shtativiy"]
+    },
+    "avtotovary": {
+      "videoregistratory": ["videoregistratoriy"],
+      "radar_detektory": ["radar_detektoriy"],
+      "gps_navigatory": ["gps_navigatoriy"]
+    },
+    "avtoinstrumenty": {
+      "nabory_instrumentov": [],
+      "otvertki": [],
+      "sharnirno_gubcevoj_instrument": [],
+      "jashhiki_dlja_instrumentov": []
+    },
+    "avtoaksessuary": {
+      "derzhateli": ["krepleniya_dlya_telefonov"],
+      "zarjadnye_ustrojstva": ["avtomobilniye_zaryadniye_ustrojstva"],
+      "kovriki": ["silikonoviye_kovriki"],
+      "kreplenija": [],
+      "razvetviteli": ["razvetviteli"]
+    }
+  }
+}

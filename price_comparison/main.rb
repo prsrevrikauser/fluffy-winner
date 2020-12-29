@@ -6,7 +6,7 @@
 
   $path_to_db = ARGV.first
   $path_to_comparison_db = ARGV.last
-  $path_to_json = "./mbt_categories.json"
+  $path_to_json = "./all_cats.json"
 
   # byebug
 

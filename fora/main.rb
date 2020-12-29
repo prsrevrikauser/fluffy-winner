@@ -56,7 +56,7 @@
   end
 
   def get_fora_json
-    file = File::read("./mbt_categories.json")
+    file = File::read("./all_cats.json")
     JSON::parse(file)["fora"]
   end
 
@@ -152,7 +152,7 @@
             end
 
             # wait for two seconds before sending a request to website
-            sleep(2)
+            sleep(1)
           else
             # if there are more than one page per slug,
             # go through every page and get details
@@ -175,7 +175,7 @@
               end
 
               # wait for two seconds before sending a request to website
-              sleep(2)
+              sleep(1)
 
               page_num += 1
             end # while statement
@@ -217,7 +217,7 @@
             db.execute query
 
             # wait for a 1/8 before each insertion
-            sleep(0.2)
+            sleep(0.01)
 
             # ux string
             puts "* * * * successfully inserted '#{product[:title]}' into '#{table_name}'!"
